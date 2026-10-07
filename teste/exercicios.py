@@ -1,4 +1,4 @@
-#Crie um programa que receba o ano de nascimento do usuário e informe se ele é menor de idade (menor de 18 anos), maior de idade ou idoso (60 anos ou mais)
+#1 Crie um programa que receba o ano de nascimento do usuário e informe se ele é menor de idade (menor de 18 anos), maior de idade ou idoso (60 anos ou mais)
 
 ano = int(2003)
 
@@ -14,7 +14,7 @@ else:
     print(f"menor de idade ({idade} anos)")
 
 
-#Variação 1: Categoria de Atleta (Faixas de Idade)
+#Variação 2: Categoria de Atleta (Faixas de Idade)
 
 ano = int(2003)
 
@@ -32,7 +32,7 @@ elif idade<=17 and idade >=12:
 else:
     print(f"Cadegoria Infantil ({idade} anos)")
 
-#Variação 2: Calculadora de Desconto e Frete (Simulação de E-commerce)
+#Variação 3: Calculadora de Desconto e Frete (Simulação de E-commerce)
 
 valor_compra = float(20)
 frete = 20.00
@@ -53,3 +53,11 @@ else:
     print(
         f"Valor a pagar: {valor_compra + frete:.2f} (Acrecimo de R${frete:.2f} do Frete)"
     )
+
+    #4 Calculadora de Conta de Luz (Simulação de Concessionária)Neste exercício, você calcula o valor total da conta com base no consumo de energia ($\text{kWh}$) e na aplicação de taxas operacionais.
+
+
+
+
+    #5 Análise de Risco de Empréstimo (Mercado Financeiro)Este cenário simula a validação de regra de negócio para concessão de crédito.
+    
