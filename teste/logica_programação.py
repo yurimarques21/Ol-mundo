@@ -5,6 +5,7 @@ n = 1
 while n <= 10:
     print(n)
     n += 1
+
 # crie um simulador de tabuada, onde o jogador digita um número, e a tabuada desse número será exibida.
 
 contador = int(input("Digite o numero que deseja multiplicar: "))
@@ -27,4 +28,10 @@ for letra in texto:
 print(f"O texto contém {contador_vogais} vogal(ais).")
 
 #escreva um programa onde o sistema exibe uma tabuada de 1 a 100. 
+
+tabuada = 0
+
+for t in int(tabuada):
+    if tabuada <= 100:
+        print (tabuada)
 
